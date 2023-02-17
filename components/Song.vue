@@ -35,16 +35,15 @@ const { $spotify } = useNuxtApp();
 
 const { activeSong, setActiveSong, isPlaying, setIsPlaying } = useSongStore();
 
-function playSong() {
+async function playSong() {
   setActiveSong(props.song);
   setIsPlaying(true);
   try {
-    $spotify.play({
+    await $spotify.play({
       uris: [props.song.uri],
     });
   } catch (error) {
-    alert('Hello!!!!');
+    alert(error);
   }
-  console.log({ ...activeSong, }, "Hello");
 }
 </script>

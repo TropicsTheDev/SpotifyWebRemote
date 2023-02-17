@@ -28,7 +28,6 @@ const {
     const token = await $spotify.getAccessToken();
     if (token) {
       const res = await $spotify.getPlaylistTracks(activePlaylist.value.id);
-      console.log(res.body.items);
       return res.body.items;
     }
   },
