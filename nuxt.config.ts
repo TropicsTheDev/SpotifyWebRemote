@@ -2,7 +2,7 @@
 import tailwindScrollbarHide from "tailwind-scrollbar-hide";
 export default defineNuxtConfig({
   nitro: {
-    preset: "cloudflare_pages",
+    preset: "heroku",
   },
   modules: ["@nuxtjs/tailwindcss", "@sidebase/nuxt-auth", "@pinia/nuxt"],
   runtimeConfig: {
