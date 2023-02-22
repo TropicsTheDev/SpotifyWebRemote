@@ -16,12 +16,10 @@
   "dependencies": {
     "@heroicons/vue": "^2.0.15",
     "@pinia/nuxt": "^0.4.6",
-    "formidable": "^3.2.5",
     "lodash": "^4.17.21",
     "next-auth": "4.18.8",
     "pinia": "^2.0.30",
     "spotify-web-api-node": "^5.0.2",
-    "superagent": "^8.0.9",
     "tailwind-scrollbar-hide": "^1.1.7"
   }
 }
