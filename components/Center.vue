@@ -37,7 +37,7 @@
 
 <script setup>
 import { ChevronDownIcon } from "@heroicons/vue/24/outline";
-import { shuffle } from "lodash";
+import shuffle from "lodash/shuffle";
 import { storeToRefs } from "pinia";
 import { usePlaylistStore } from "@/store";
 

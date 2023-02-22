@@ -55,7 +55,7 @@ import {
   HeartIcon,
   SpeakerWaveIcon as VolumeDownIcon,
 } from "@heroicons/vue/24/outline";
-import { debounce } from "lodash";
+import debounce from "lodash/debounce";
 import { useSongStore } from "@/store";
 import { storeToRefs } from "pinia";
 import useSongInfo from "@/lib/useSongInfo";
